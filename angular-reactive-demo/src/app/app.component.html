@@ -1,0 +1,13 @@
+<div class="pheader">
+  <h1>Products home</h1>
+</div>
+<form (ngSubmit)="addProduct(f)" #f="ngForm">
+  <input type="text" name="productName" ngModel required>
+  <button>add product</button>
+</form>
+
+
+<div *ngFor="let product of _products" class="article">
+  <p>{{product}}</p>
+  <button (click)="deleteProduct(product)">Borrar</button>
+</div>
