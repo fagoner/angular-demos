@@ -1,0 +1,16 @@
+
+section {
+  padding: 10px 10px;
+
+}
+.kvRow > label {
+  width: 45%;
+
+}
+
+.kvRow > input {
+  background-color: azure;
+  margin-left: 10px;
+  width: 55%;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+
+<section>
+  <div *ngIf="productSelected" class="kvRow">
+    <label>Name:</label>
+    <input  disabled [value]="productSelected.name"/>
+  </div>
+
+  <a [routerLink]="['../']">back</a>
+</section>
