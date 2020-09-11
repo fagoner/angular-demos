@@ -1,0 +1,20 @@
+<div class="container">
+  <!-- <div class="row" *ngFor="let product of products">
+    <div class="col s12 m4 l4 grey center">{{product.id}}</div>
+    <div class="col s12 m4 l4 orange center">{{product.name}}</div>
+    <div class="col s12 m4 l4 grey">actions</div>
+  </div> -->
+  <div class="row" *ngFor="let product of products">
+    <div class="col s12 m6 offset-m3">
+      <div class="card blue-grey darken-2">
+        <div class="card-content white-text">
+          <span class="card-title">{{product.name}}</span>
+          <!-- <p>Code: {{product.id}}</p> -->
+        </div>
+        <div class="card-action center">
+          <a [routerLink]="['/product-details', product.id]">Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

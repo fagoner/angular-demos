@@ -10,3 +10,7 @@ This is a demo for angular, for reactive programming, nothing complex
 ## angular-routes
 
 This is a demo for routes, to inspect routes and childs
+
+## angular-child-routes
+
+This is a demo for routes, with child
